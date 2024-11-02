@@ -2,7 +2,7 @@
 Can't find a setting?  Check the [Meshtastic docs](https://meshtastic.org/docs/configuration/) for more info - each page has tabs for iOS, Android, CLI, and Web.
 
 ## Fixed Nodes
-_If your node will not be fixed, please use the portable node configuration_
+_If your node will move, please use the portable node configuration_
 # [Radio>Device](#tab/device)
 __Role:__ usually should be `CLIENT` or `CLIENT_MUTE` or other roles as appropriate by situation. It is rare that `ROUTER` or `REPEATER` are appropriate, so please consult with the group on Discord before doing so.  Adding nodes with these roles can negatively impact the mesh.  The role `ROUTER_CLIENT` (deprecated) should not be used.  For more information see the [Meshtastic docs](https://meshtastic.org/docs/configuration/radio/device/#roles).
 
