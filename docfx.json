@@ -1,0 +1,35 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern",
+      "template"
+    ],
+    "globalMetadata": {
+      "_appName": "Puget Mesh",
+      "_appTitle": "Puget Mesh",
+      "_appLogoPath": "images/logo.svg",
+      "_appFooter": "Supporting Meshtastic, AREDN and other mesh networks in the Puget Sound region.",
+      "_enableSearch": true,
+      "pdf": false
+    }
+  }
+}

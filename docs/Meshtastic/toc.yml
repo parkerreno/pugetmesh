@@ -1,0 +1,4 @@
+- name: Getting Started
+  href: getting-started.md
+- name: Recommended Configurations
+  href: recommended-config.md
