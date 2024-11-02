@@ -7,6 +7,7 @@ Once you have the repo cloned, here are the steps to get it up and running!
 1. Install .NET - as of writing 8 is the latest release and LTS, 6 or higher is required.  Download it from [dot.net](https://dot.net/download) or use one of the commands below:
     <details>
     <summary>WinGet (Windows)</summary>
+    
     ```
     winget install Microsoft.DotNet.SDK.8
     ```
@@ -14,6 +15,7 @@ Once you have the repo cloned, here are the steps to get it up and running!
 
     <details>
     <summary>Homebrew (macOS)</summary>
+
     ```
     brew install --cask dotnet-sdk
     ```
@@ -21,6 +23,7 @@ Once you have the repo cloned, here are the steps to get it up and running!
 
     <details>
     <summary>APT (Debian/Ubuntu)</summary>
+    
     ```
     sudo apt-get update && \
     sudo apt-get install -y dotnet-sdk-8.0
