@@ -1,4 +1,12 @@
 - name: Getting Started
   href: getting-started.md
-- name: Recommended Configurations
+- name: Recommended Configuration
   href: recommended-config.md
+- name: FAQ
+  href: faq.md
+- name: Projects
+  items:
+  - name: Example 1
+    href: projects/example1.md
+  - name: Example 2
+    href: projects/example2.md
